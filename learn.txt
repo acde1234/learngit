@@ -4,4 +4,16 @@ git reset --hard 版本号   可恢复版本号
 Git is a distributed version control system
 Git has a mutable index called stage
 Git tracks changes of file
+#只add,没有commit撤销修改
+git reset HEAD 文件名
+git checkout -- 文件名
 
+#删除文件
+1.rm 文件名   删除工作区的文件
+2.git status   提示是否删除版本库的文件
+3.git rm 文件名   删除版本库的文件
+4.git checkou -- 文件名   把文件恢复到工作区
+
+#远程推送
+git remote add origin https://github.com/acde1234/learnGitHub.git
+git push -u origin master
