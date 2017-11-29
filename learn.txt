@@ -1,2 +1,5 @@
-Git is commit
+git reset --hard HARD^ 版本回撤
+git reflog  删除版本记录
+git reset --hard 版本号   可恢复版本号
 Git is a distributed version control system
+Git has a mutable index called stage
