@@ -17,3 +17,7 @@ git checkout -- 文件名
 #远程推送
 git remote add origin https://github.com/acde1234/learnGitHub.git
 git push -u origin master
+#更新远程文件
+git push origin master
+#断开远程连接
+git remote rm origin
