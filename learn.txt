@@ -41,5 +41,8 @@ git merge dev    把分支Dev的工作成果合并到当前分支
 git branch -d dev     #合并分支之后删除分支
 Test gg
 
-In BB branch 
+#查看那些分支没有合并
+git branch --no-merged
+#查看已经合并过的分支
+git branch --merged
 
