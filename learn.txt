@@ -41,4 +41,5 @@ git merge dev    把分支Dev的工作成果合并到当前分支
 git branch -d dev     #合并分支之后删除分支
 Test gg
 
+In BB branch 
 
