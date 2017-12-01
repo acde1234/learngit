@@ -1,0 +1,7 @@
+git reset --hard HARD^ 版本回撤
+git reflog  删除版本记录
+git reset --hard 版本号   可恢复版本号
+Git is a distributed version control system
+Git has a mutable index called stage
+Git tracks changes of file
+My stupid boss still prefers SVN

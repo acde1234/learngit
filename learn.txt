@@ -22,6 +22,7 @@ git push origin master
 #断开远程连接
 git remote rm origin
 
+<<<<<<< HEAD
 #克隆  从远程Git拉去文件
 git clone https://github.com/acde1234/gitskills.git
 #打开文件，查看是否拉取成功
@@ -34,3 +35,8 @@ git checkout -b dev      -b表示创建并切换
 #查看分支
 git branch                *表示当前分支
 
+
+#合并分支
+git merge dev    把分支Dev的工作成果合并到当前分支
+#删除分支
+git branch -d dev     #合并分支之后删除分支
