@@ -1,3 +1,10 @@
+mkdir  目录名   #创建一个空目录
+pwd     #查看当前目录
+git init  #初始化，把目录变为仓库
+git add 文件名   #把文件添加到仓库
+git add *  #提交所有文件
+git commit -m '备注'  #把问价提交到仓库
+git commit -am '备注'  #把跟踪的文件全部提交到仓库
 git reset --hard HARD^ 版本回撤
 git reflog  删除版本记录
 git reset --hard 版本号   可恢复版本号
